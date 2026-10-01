@@ -1,0 +1,60 @@
+# ==========================================
+# Nearby Boost - Git Ignore Configuration
+# ==========================================
+
+# --- Gradle & Build Files ---
+.gradle/
+build/
+*/build/
+app/build/
+
+# --- Android / APK / AAB / Native ---
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+output.json
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+
+# --- Android Studio & IntelliJ IDEA ---
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# --- Kotlin ---
+.kotlin/
+
+# --- .NET & Visual Studio (WindowsSender & WindowsSenderGui) ---
+bin/
+obj/
+*/bin/
+*/obj/
+.vs/
+*/.vs/
+*.user
+*.userprefs
+*.suo
+*.userosscache
+*.sln.docstates
+*.dll
+*.exe
+*.pdb
+
+# --- Operating System & Temporary Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.log

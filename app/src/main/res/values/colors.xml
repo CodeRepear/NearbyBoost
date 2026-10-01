@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Modern purple tonal palette -->
+    <color name="purple_10">#1B0040</color>
+    <color name="purple_20">#2D1B69</color>
+    <color name="purple_30">#4527A0</color>
+    <color name="purple_40">#5E35B1</color>
+    <color name="purple_50">#7E57C2</color>
+    <color name="purple_60">#9575CD</color>
+    <color name="purple_70">#B39DDB</color>
+    <color name="purple_80">#CE93D8</color>
+    <color name="purple_90">#E1BEE7</color>
+    <color name="purple_95">#F3E5F5</color>
+
+    <!-- Indigo accent -->
+    <color name="indigo_primary">#7C4DFF</color>
+    <color name="indigo_primary_variant">#651FFF</color>
+    <color name="indigo_container">#EDE7F6</color>
+    <color name="indigo_on_container">#311B92</color>
+    <color name="indigo_container_dark">#1A1128</color>
+    <color name="indigo_on_container_dark">#D1C4E9</color>
+
+    <!-- Neutral palette -->
+    <color name="neutral_10">#1C1B1F</color>
+    <color name="neutral_20">#2B2930</color>
+    <color name="neutral_30">#3B3844</color>
+    <color name="neutral_40">#4B4856</color>
+    <color name="neutral_50">#5C5868</color>
+    <color name="neutral_80">#C9C5D0</color>
+    <color name="neutral_90">#E6E1E5</color>
+    <color name="neutral_95">#F4EFF4</color>
+    <color name="neutral_99">#FFFBFE</color>
+
+    <!-- Surface tones for dark mode -->
+    <color name="surface_dark">#0F0D15</color>
+    <color name="surface_container_dark">#1A1720</color>
+    <color name="surface_container_high_dark">#23202B</color>
+    <color name="surface_bright_dark">#2C2835</color>
+
+    <!-- Surface tones for light mode -->
+    <color name="surface_light">#FFFBFE</color>
+    <color name="surface_container_light">#F3EDF7</color>
+    <color name="surface_container_high_light">#ECE6F0</color>
+
+    <!-- Status colors -->
+    <color name="status_success">#4CAF50</color>
+    <color name="status_success_container">#1B3A1B</color>
+    <color name="status_error">#EF5350</color>
+    <color name="status_error_container">#3A1B1B</color>
+    <color name="status_info">#42A5F5</color>
+    <color name="status_info_container">#1B2D3A</color>
+
+    <!-- Gradient overlay -->
+    <color name="gradient_start">#00000000</color>
+    <color name="gradient_end">#1A7C4DFF</color>
+
+    <!-- Old compatibility colors (kept for code that references them) -->
+    <color name="gray_purple_40">#625B71</color>
+    <color name="gray_purple_80">#CCC2DC</color>
+</resources>

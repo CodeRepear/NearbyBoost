@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NearbyBoost" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/indigo_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/indigo_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/indigo_on_container_dark</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/purple_60</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/neutral_95</item>
+        <item name="colorSurfaceVariant">@color/neutral_30</item>
+        <item name="colorOnSurfaceVariant">@color/neutral_80</item>
+        <item name="colorSurfaceContainer">@color/surface_container_dark</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_container_high_dark</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/neutral_50</item>
+        <item name="colorOutlineVariant">@color/neutral_30</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Bottom navigation styling -->
+        <item name="bottomNavigationStyle">@style/NearbyBoost.BottomNavigation</item>
+    </style>
+</resources>

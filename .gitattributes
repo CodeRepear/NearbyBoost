@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Unix shell scripts must have LF
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows batch files must have CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Visual Studio files
+*.sln text eol=crlf
+*.slnx text eol=crlf
+*.csproj text eol=crlf
+*.xaml text eol=crlf
+
+# Binary files
+*.jar binary
+*.png binary
+*.webp binary
+*.ico binary
+*.pdf binary

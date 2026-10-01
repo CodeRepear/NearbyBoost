@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NearbyBoost" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/indigo_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/indigo_container</item>
+        <item name="colorOnPrimaryContainer">@color/indigo_on_container</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/purple_50</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/neutral_10</item>
+        <item name="colorSurfaceVariant">@color/neutral_90</item>
+        <item name="colorOnSurfaceVariant">@color/neutral_40</item>
+        <item name="colorSurfaceContainer">@color/surface_container_light</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_container_high_light</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/neutral_50</item>
+        <item name="colorOutlineVariant">@color/neutral_80</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Bottom navigation styling -->
+        <item name="bottomNavigationStyle">@style/NearbyBoost.BottomNavigation</item>
+    </style>
+
+    <!-- Modern Bottom Navigation Style -->
+    <style name="NearbyBoost.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="itemActiveIndicatorStyle">@style/NearbyBoost.BottomNav.ActiveIndicator</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemTextAppearanceActive">@style/NearbyBoost.BottomNav.TextActive</item>
+        <item name="itemTextAppearanceInactive">@style/NearbyBoost.BottomNav.TextInactive</item>
+        <item name="itemIconTint">@color/bottom_nav_icon_color</item>
+        <item name="itemTextColor">@color/bottom_nav_icon_color</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="NearbyBoost.BottomNav.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/indigo_container</item>
+        <item name="shapeAppearance">@style/NearbyBoost.BottomNav.ActiveIndicator.Shape</item>
+    </style>
+
+    <style name="NearbyBoost.BottomNav.ActiveIndicator.Shape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="NearbyBoost.BottomNav.TextActive" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">11sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="NearbyBoost.BottomNav.TextInactive" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>
